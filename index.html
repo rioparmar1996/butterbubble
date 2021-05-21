@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="default.css">
     <script src="https://kit.fontawesome.com/502d66a95c.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
     <title>Portfolio</title>
 </head>
 <body>
@@ -32,10 +35,10 @@
                     <img id="profile-pic" src="images/profile.jpg">
                     <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
                     <div id="theme-option-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="white" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
                     <p id="settings-node">*Theme setting will be saved for<br>your next visit</p>
                 </div>
@@ -170,5 +173,7 @@
             </form>
         </div>
     </section>
+
+    <script type="text/JavaScript" src="script.js"></script>
 </body>
 </html>

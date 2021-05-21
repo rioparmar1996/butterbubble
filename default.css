@@ -16,12 +16,15 @@
     --buttonColor:black;
 }
 
-
 html, body {
 
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
+}
+
+body *{
+    transition: 0.2s;
 }
 
 h1, h2, h3, h4, h5, h6, strong{
@@ -101,6 +104,7 @@ p, li, span, label, input, textarea {
     border-radius: 5px 5px 0 0;
     
 }
+
 
 #navigation{
     margin: 0;
@@ -187,19 +191,19 @@ p, li, span, label, input, textarea {
 }
 
 #light-mode{
-    background-color: #fff;
+    background-color: #f9f4f4;
 }
 
 #blue-mode{
-    background-color: rgb(105, 202, 240);
+    background-color: #e7eff6;
 }
 
 #green-mode{
-    background-color: rgb(134, 252, 99);
+    background-color: #cdeac0;
 }
 
 #purple-mode{
-    background-color: rgb(247, 78, 247);
+    background-color: #E2DCF0;
 }
 
 #settings-node{
