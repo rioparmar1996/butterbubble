@@ -1,2 +1,2 @@
 # butterbubble
-this is my portfolio
+A portfolio website SPA for practice or your first website.
